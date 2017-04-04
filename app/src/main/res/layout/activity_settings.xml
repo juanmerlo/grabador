@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/negroFondo"
+    tools:context="com.juanmartin.grabador.Settings"
+    android:padding="20dp"
+    >
+
+    <Button
+        android:id="@+id/cambiarDirectorio"
+        android:text="Cambiar directorio de grabaciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorLetra"
+        android:background="@drawable/boton_principal_plano"
+        />
+
+
+</RelativeLayout>

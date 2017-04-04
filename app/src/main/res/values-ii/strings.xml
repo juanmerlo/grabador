@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">雕刻机</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="grabar">雕刻机</string>
+    <string name="parar">停止</string>
+    <string name="grabarTab">记录</string>
+    <string name="escucharTab">听</string>
+    <string name="grabacionCompleta">完成：</string>
+    <string name="cambioNombreListo">更名</string>
+    <string name="eliminar">清除</string>
+    <string name="cambiarNombre">重命名</string>
+    <string name="eliminarTodo">删除所有</string>
+    <string-array name="opcionesMenuContextual">
+        <item>@string/eliminar</item>
+        <item>@string/cambiarNombre</item>
+        <item>@string/eliminarTodo</item>
+    </string-array>
+
+    <string name="eliminoTodoListo">所有记录将被删除</string>
+    <string name="noHayGrabaciones">没有记录</string>
+    <string name="eliminadoListo">去除</string>
+    <string name="cancelar">取消</string>
+    <string name="ok">行</string>
+    <string name="ingresoNombre">输入新的名称</string>
+    <string name="grabando">记录</string>
+    <string name="reproduciendo">现在播放</string>
+    <string name="opciones">选项</string>
+    <string name="privacypolicy">隐私政策</string>
+    <string name="ingresarNuevoDirectorio">进入目录</string>
+</resources>

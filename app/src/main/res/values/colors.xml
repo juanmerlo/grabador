@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3c4055</color>
+    <color name="colorPrimaryDark">#3c4055</color>
+    <color name="colorAccent">#40b9ff</color>
+    <color name="colorLetra">#FFFFFF</color>
+    <color name="negroFondo">#ab000000</color>
+    <color name="botonNormal">#4a579a</color>
+    <color name="botonPresionado">#6b739f</color>
+    <color name="botonDeshabilitado">#c2cbf6</color>
+</resources>

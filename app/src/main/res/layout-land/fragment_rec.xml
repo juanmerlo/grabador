@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.juanmartin.grabador.Rec"
+    android:orientation="horizontal"
+    android:weightSum="2"
+    android:padding="20dp"
+    android:background="@color/negroFondo"
+
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/micIcono"
+            android:src="@drawable/mic"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="2"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:weightSum="10"
+            >
+            <Button
+                android:id="@+id/grabar"
+                android:text="@string/grabar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorLetra"
+                android:layout_weight="5"
+                android:background="@drawable/boton_principal_plano"/>
+            <Button
+                android:id="@+id/parar"
+                android:text="@string/parar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorLetra"
+                android:layout_weight="5"
+                android:background="@drawable/boton_principal_plano"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:weightSum="4"
+        android:orientation="vertical">
+
+        <Chronometer
+            android:id="@+id/cronometroGrabar"
+            android:textSize="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorLetra"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_weight="2"
+            />
+
+        <TextView
+            android:id="@+id/nombreAudioNuevo"
+            android:text="Audio.mp3"
+            android:textSize="15dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textColor="@color/colorLetra"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/amplitudGrabador"
+            android:text="Amplitud"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:gravity="center_horizontal|center_vertical"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

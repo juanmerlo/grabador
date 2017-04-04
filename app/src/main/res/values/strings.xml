@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Grabador</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="grabar">Grabar</string>
+    <string name="parar">Parar</string>
+    <string name="grabarTab">Grabar</string>
+    <string name="escucharTab">Escuchar</string>
+    <string name="grabacionCompleta">Completo: </string>
+    <string name="cambioNombreListo">Se cambió el nombre a </string>
+    <string name="eliminar">Eliminar</string>
+    <string name="cambiarNombre">Cambiar nombre</string>
+    <string name="eliminarTodo">Eliminar todo</string>
+    <string-array name="opcionesMenuContextual">
+        <item>@string/eliminar</item>
+        <item>@string/cambiarNombre</item>
+        <item>@string/eliminarTodo</item>
+    </string-array>
+
+    <string name="eliminoTodoListo">Se borraron todas las grabaciones</string>
+    <string name="noHayGrabaciones">No hay grabaciones</string>
+    <string name="eliminadoListo">eliminado</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="ok">Ok</string>
+    <string name="ingresoNombre">Ingrese nuevo nombre</string>
+    <string name="grabando">Grabando</string>
+    <string name="reproduciendo">Reproduciendo</string>
+    <string name="opciones">Opciones</string>
+    <string name="privacypolicy">Privacy Policy</string>
+    <string name="ingresarNuevoDirectorio">Ingrese directorio</string>
+</resources>

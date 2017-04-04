@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.juanmartin.grabador.Rec"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:padding="20dp"
+    android:background="@color/negroFondo"
+
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/micIcono"
+        android:src="@drawable/mic"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="3"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="3"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:weightSum="10"
+        >
+        <Button
+            android:id="@+id/grabar"
+            android:text="@string/grabar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorLetra"
+            android:layout_weight="5"
+            android:background="@drawable/boton_principal_plano"/>
+        <Button
+            android:id="@+id/parar"
+            android:text="@string/parar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorLetra"
+            android:layout_weight="5"
+            android:background="@drawable/boton_principal_plano"/>
+
+    </LinearLayout>
+
+    <Chronometer
+        android:id="@+id/cronometroGrabar"
+        android:textSize="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorLetra"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_weight="1.5"
+        />
+
+    <TextView
+        android:id="@+id/nombreAudioNuevo"
+        android:text="Audio.mp3"
+        android:textSize="15dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textColor="@color/colorLetra"
+        android:layout_weight="1"/>
+
+        <ProgressBar
+            android:id="@+id/amplitudVoz"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            style="@android:style/Widget.ProgressBar.Horizontal" />
+
+</LinearLayout>
